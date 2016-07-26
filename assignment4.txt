@@ -1,0 +1,27 @@
+/*Rebecca Hale Assignment 4 Part 2*/
+1. Strings can be concatenated in C by using the function
+strcat(string1,string2).  This function automatically concatenates 
+the strings and puts them into string1.
+2. If a static array is not initialized, then the array is not given an
+automatic size.  In fact, if the function sizeof() is used to locate the
+size of the array without first initializing the array, an error will
+occur.  
+3. A multidimensional array of size 64 can be declared using any dimensions
+that when multiplied together equal 64.  For instance, int x[8][8] or 
+int x[2][32] or int x[4][16]. 
+4.
+a. strcmp() is a function that compares the lexicographical order of two
+given strings. It will return either a positive number, zero, or a negative 
+number, depending upon whether the first string given comes before, is the
+same, or comes after the second given string.  
+b. fgets() is a function that is used to input strings.  However, the string
+terminator is not added to the string that is given, so the terminator
+must be added manually.  The function returns whatever string was given for input.
+c. strcat() is a function that concatenates two given strings. This means that the function is used to link characters into an array of characters, or a
+string.  It puts the whole new concatenated string into the first string
+given.  So, strcat(string1,string2) would concatenate the two strings
+together, put this new string into string1, and add the string terminator to
+the end of string1.
+d. strlen() is a function that is used to find out the length of a given 
+string. It disregards the string terminator, so it returns the legitimate 
+length of the character array minus one.
